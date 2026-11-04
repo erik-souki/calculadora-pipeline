@@ -1,7 +1,7 @@
 import pytest
 from src.calculadora import calcular_desconto, calcular_imposto, calcular_preco_final
 
-
+#testes para a calculadora
 @pytest.mark.unit
 class TestCalcularDesconto:
     def test_desconto_normal(self):
